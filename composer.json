@@ -1,0 +1,24 @@
+{
+  "name": "codephix/getnet",
+  "type"       : "library",
+  "description": "GetNet PHP API Wrapper",
+  "keywords"   : ["GetNet", "API", "Payment SaaS", "Credit Card", "Boleto"],
+  "homepage": "http://www.codephix.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Max Alex",
+      "email": "contato@codephix.com",
+      "role": "Developer",
+      "homepage": "https://www.codephix.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "CodePhix\\GetNet\\": "src"
+    }
+  }
+}
